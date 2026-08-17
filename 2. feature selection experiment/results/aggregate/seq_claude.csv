@@ -1,0 +1,108 @@
+﻿feature,avg_step,std_step,avg_points,n_seed
+Age,1.0,0.0,107.0,5
+Glasgow Coma Scale,2.0,0.0,106.0,5
+Sedation Use,3.2,0.4472135954999579,104.8,5
+Mechanical Ventilation,5.0,0.0,103.0,5
+Acute Physiology and Chronic Health Evaluation (APACHE) Score,5.4,1.3416407864998738,102.6,5
+Sequential Organ Failure Assessment Score,6.0,4.47213595499958,102.0,5
+Charlson Comorbidity Index,8.6,2.701851217221259,99.4,5
+Sepsis,9.0,1.8708286933869707,99.0,5
+Vasopressor Use,9.2,0.8366600265340758,98.8,5
+Blood Urea Nitrogen,10.4,2.5099800796022267,97.6,5
+Creatinine,11.6,2.6076809620810595,96.4,5
+Dementia,13.2,7.224956747275377,94.8,5
+Lactate,14.0,1.4142135623730951,94.0,5
+Acute Kidney Injury,14.0,4.415880433163924,94.0,5
+Blood Sodium,15.0,0.9999999999999999,93.0,5
+Albumin,15.8,1.6431676725154984,92.2,5
+Blood pH,19.0,0.7071067811865472,89.0,5
+Bicarbonate,19.4,1.5165750888103102,88.6,5
+Respiratory Rate,20.0,3.4641016151377544,88.0,5
+Use Of Midazolam,21.8,7.726577508832744,86.2,5
+White Blood Cell Count,22.6,5.813776741499454,85.4,5
+Infection,23.2,3.898717737923586,84.8,5
+Urine Output,23.6,10.310189135025604,84.4,5
+Renal Replacement Therapy,24.0,12.864680330268607,84.0,5
+Oxygen Saturation,24.4,1.949358868961793,83.6,5
+Temperature,25.6,1.673320053068151,82.4,5
+Heart Rate,26.0,0.7071067811865476,82.0,5
+Mean Blood Pressure,26.6,2.966479394838265,81.4,5
+Hemoglobin,27.6,3.7815340802378077,80.4,5
+Bilirubin,29.8,2.0493901531919194,78.2,5
+Arterial Partial Pressure Of Carbon Dioxide,30.4,2.880972058177587,77.6,5
+Red Cell Distribution Width,31.4,2.0736441353327724,76.6,5
+Glucose,31.8,2.16794833886788,76.2,5
+Anion Gap,32.8,3.492849839314596,75.2,5
+Simplified Acute Physiology Score II,33.2,12.497999839974394,74.8,5
+Arterial Partial Pressure Of Oxygen,37.4,1.1401754250991376,70.6,5
+Body Mass Index,37.8,1.9235384061671346,70.2,5
+Chloride,38.2,1.7888543819998322,69.8,5
+Diastolic Blood Pressure,41.2,10.56882207249228,66.8,5
+Type Of Initial ICU Admission,42.2,14.498275759551548,65.8,5
+Chronic Obstructive Pulmonary Disease,42.8,4.764451699828638,65.2,5
+Neutrophil To Lymphocyte Ratio,42.8,2.1679483388678804,65.2,5
+Depression,46.2,5.630275304103699,61.8,5
+Diabetes,46.4,4.03732584763727,61.6,5
+International Normalized Ratio,47.0,5.70087712549569,61.0,5
+Magnesium,47.4,5.856620185738529,60.6,5
+Hypertension,48.0,3.391164991562635,60.0,5
+Calcium,48.4,5.319774431308155,59.6,5
+Sex,48.6,4.449719092257398,59.4,5
+Acute Myocardial Infarction,48.6,9.787747442593725,59.4,5
+Stroke,52.0,8.336666000266533,56.0,5
+Hematocrit,52.2,3.8340579025361636,55.8,5
+Platelet Count,52.2,4.54972526643093,55.8,5
+Mean Blood Glucose,54.4,8.473488065725945,53.6,5
+Systolic Blood Pressure,55.2,7.014271166700072,52.8,5
+Lymphocyte Count,55.2,2.5884358211089573,52.8,5
+Heart Failure,55.6,3.714835124201341,52.4,5
+Systemic Inflammatory Response Syndrome,58.2,14.060583202698245,49.8,5
+Liver Disease,59.0,6.557438524302,49.0,5
+Alcohol Abuse,59.4,9.07193474403338,48.6,5
+Potassium,59.6,0.8944271909999157,48.4,5
+Base Excess,60.0,4.06201920231798,48.0,5
+Antibiotic Drug Use,60.2,4.266145801540309,47.8,5
+Phosphate,62.6,5.176871642217914,45.4,5
+Cerebrovascular Disease,65.2,13.863621460498697,42.8,5
+Anemia,67.6,4.7222875812470395,40.4,5
+Alanine Aminotransferase,68.6,6.348228099241551,39.4,5
+Geriatric Nutritional Risk Index,69.0,3.391164991562634,39.0,5
+Mean Amplitude Of Glycemic Excursions,70.4,4.774934554525326,37.6,5
+Cancer,71.0,3.391164991562634,37.0,5
+Logistic Organ Dysfunction Score,72.6,10.737783756436894,35.4,5
+Glomerular Filtration Rate,73.0,8.689073598491383,35.0,5
+Prothrombin Time,73.0,7.648529270389178,35.0,5
+Elective Surgery,73.2,2.16794833886788,34.8,5
+Neutrophil Count,73.2,7.596051605933177,34.8,5
+Aspartate Aminotransferase,73.4,3.974921382870359,34.6,5
+Lymphocyte To Monocyte Ratio,76.8,11.755849607748477,31.2,5
+Partial Thromboplastin Time,77.4,4.159326868617086,30.6,5
+Alkaline Phosphatase,77.6,2.408318915758459,30.4,5
+Renal Disease,79.0,2.7386127875258306,29.0,5
+Prognostic Nutritional Index,79.4,7.0922492905988594,28.6,5
+Mean Corpuscular Volume,81.0,5.477225575051661,27.0,5
+Peripheral Vascular Disease,81.2,2.2803508501982765,26.8,5
+Monocyte Count,82.4,5.1283525619832355,25.6,5
+Statin Drugs,84.0,1.4142135623730951,24.0,5
+Oxford Acute Severity Of Illness Score,84.2,9.497368056467012,23.8,5
+Cardiovascular Disease,88.0,3.9370039370059056,20.0,5
+Mean Corpuscular Hemoglobin,88.8,1.3038404810405302,19.2,5
+Nicotine Dependence,89.2,3.563705936241092,18.8,5
+Ethnicity,89.8,5.069516742254631,18.2,5
+Gram Negative,91.2,3.1937438845342627,16.8,5
+Marital Status,94.6,4.669047011971499,13.4,5
+Mean Corpuscular Hemoglobin Concentration,94.8,2.2803508501982757,13.2,5
+Coronary Artery Bypass Grafting,95.0,1.8708286933869716,13.0,5
+Glycemic Lability Index,95.0,14.66287829861518,13.0,5
+Red Blood Cell Count,95.2,1.7888543819998322,12.8,5
+Platelet To Lymphocyte Ratio,96.4,2.8809720581775875,11.6,5
+Height,96.6,3.5071355833500384,11.4,5
+Body Weight,98.2,2.949576240750527,9.8,5
+Gram Positive,98.6,3.847076812334269,9.4,5
+Total Carbon Dioxide,100.0,1.732050807568878,8.0,5
+Type Of Microorganism,100.2,7.981227975693965,7.8,5
+Mean Absolute Glucose,101.2,4.919349550499538,6.8,5
+Largest Amplitude Of Glycemic Excursions,102.0,6.2048368229954285,6.0,5
+Heart Valve Surgery,102.2,1.3038404810405302,5.8,5
+Insurance,105.4,0.8944271909999157,2.6,5
+Aortic Surgery,107.0,0.0,1.0,5

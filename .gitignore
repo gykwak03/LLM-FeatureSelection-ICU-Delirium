@@ -1,0 +1,107 @@
+# =============================================================================
+# LLM-FeatureSelection-ICU-Delirium
+#
+# Two categories below must never be committed:
+#   (1) patient-level data  - the MIMIC-IV data use agreement prohibits
+#       redistribution. Only credentialed PhysioNet users may obtain it.
+#   (2) API credentials
+# Everything else (code, prompts, LLM outputs, aggregate tables) is shareable.
+# =============================================================================
+
+# ── Patient-level data — MIMIC-IV DUA -----------------------------------------
+mimic_iv_dataset*
+bq-results-*.csv
+delirium_patients*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.sav
+*.dta
+# any file whose name marks it as a patient-level extract
+*cohort*.csv
+*patients*.csv
+*_raw.csv
+
+# ── Credentials ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+service_account*.json
+client_secret*.json
+
+# ── Copyrighted third-party material ------------------------------------------
+cited_papers/
+*.pdf
+
+# ── Manuscript drafts (kept out of the code repository) -----------------------
+*.docx
+*.doc
+*.pptx
+~$*
+*.tmp
+*~WRL*
+
+# ── Python ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── Jupyter --------------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+profile_default/
+ipython_config.py
+
+# ── Tooling / caches -----------------------------------------------------------
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_cache/
+.cache/
+*.log
+
+# ── Editors ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.lnk
+
+# =============================================================================
+# Intentionally tracked — listed here so the exclusions above are not widened
+# by mistake. None of these contain patient-level rows.
+#
+#   1. feature pool generator/*.txt          feature pool, mappings, exclusions
+#   1. feature pool generator/*.xlsx         labels extracted from source papers
+#   2. feature selection experiment/results/ raw LLM responses (JSONL) + aggregates
+#   3. analyze feature selection method/outputs/   analysis tables and figures
+#   4. evaluation with MIMIC-IV/*.sql        extraction and verification queries
+#   4. evaluation with MIMIC-IV/outputs/     aggregate results (no patient rows)
+#
+# Note: results/lmprior/gpt/*.jsonl store full logprob arrays and total ~22 MB.
+# They are kept for reproducibility. To exclude them instead, uncomment:
+# 2. feature selection experiment/results/lmprior/
+# =============================================================================

@@ -1,0 +1,107 @@
+{"rank": 1, "feature": "Glasgow Coma Scale", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 2, "feature": "Dementia", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 3, "feature": "Acute Physiology and Chronic Health Evaluation (APACHE) Score", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 4, "feature": "Simplified Acute Physiology Score II", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 5, "feature": "Mechanical Ventilation", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 6, "feature": "Use Of Midazolam", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 7, "feature": "Vasopressor Use", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 8, "feature": "Systemic Inflammatory Response Syndrome", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 9, "feature": "Age", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 10, "feature": "Sequential Organ Failure Assessment Score", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 11, "feature": "Sedation Use", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 12, "feature": "Sepsis", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 13, "feature": "Infection", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 14, "feature": "Renal Replacement Therapy", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 15, "feature": "Charlson Comorbidity Index", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 16, "feature": "Alcohol Abuse", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 17, "feature": "Depression", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 18, "feature": "Stroke", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 19, "feature": "Cerebrovascular Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 20, "feature": "Acute Kidney Injury", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 21, "feature": "Mean Blood Glucose", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 22, "feature": "Glucose", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 23, "feature": "Heart Failure", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 24, "feature": "Renal Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 25, "feature": "Liver Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 26, "feature": "Acute Myocardial Infarction", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 27, "feature": "Cardiovascular Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 28, "feature": "Chronic Obstructive Pulmonary Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 29, "feature": "Diabetes", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 30, "feature": "Coronary Artery Bypass Grafting", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 31, "feature": "Heart Valve Surgery", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 32, "feature": "Cancer", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 33, "feature": "Hypertension", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 34, "feature": "Lactate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 35, "feature": "White Blood Cell Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 36, "feature": "Neutrophil To Lymphocyte Ratio", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 37, "feature": "Anemia", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 38, "feature": "Geriatric Nutritional Risk Index", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 39, "feature": "Statin Drugs", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 40, "feature": "Elective Surgery", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 41, "feature": "Type Of Microorganism", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 42, "feature": "Gram Negative", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 43, "feature": "Neutrophil Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 44, "feature": "Platelet To Lymphocyte Ratio", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 45, "feature": "Respiratory Rate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 46, "feature": "Mean Blood Pressure", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 47, "feature": "Temperature", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 48, "feature": "Blood pH", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 49, "feature": "Arterial Partial Pressure Of Carbon Dioxide", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 50, "feature": "Anion Gap", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 51, "feature": "Lymphocyte To Monocyte Ratio", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 52, "feature": "Platelet Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 53, "feature": "Hemoglobin", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 54, "feature": "Hematocrit", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 55, "feature": "Red Blood Cell Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 56, "feature": "Lymphocyte Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 57, "feature": "Prognostic Nutritional Index", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 58, "feature": "Total Carbon Dioxide", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 59, "feature": "Chloride", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 60, "feature": "Glomerular Filtration Rate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 61, "feature": "Aspartate Aminotransferase", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 62, "feature": "Peripheral Vascular Disease", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 63, "feature": "Logistic Organ Dysfunction Score", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 64, "feature": "Type Of Initial ICU Admission", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 65, "feature": "Heart Rate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 66, "feature": "Oxygen Saturation", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 67, "feature": "Diastolic Blood Pressure", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 68, "feature": "Urine Output", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 69, "feature": "Creatinine", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 70, "feature": "Blood Urea Nitrogen", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 71, "feature": "Albumin", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 72, "feature": "Bilirubin", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 73, "feature": "Phosphate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 74, "feature": "Blood Sodium", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 75, "feature": "Red Cell Distribution Width", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 76, "feature": "Monocyte Count", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 77, "feature": "Prothrombin Time", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 78, "feature": "Body Mass Index", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 79, "feature": "Systolic Blood Pressure", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 80, "feature": "Arterial Partial Pressure Of Oxygen", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 81, "feature": "Base Excess", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 82, "feature": "Bicarbonate", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 83, "feature": "Potassium", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 84, "feature": "Magnesium", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 85, "feature": "Calcium", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 86, "feature": "International Normalized Ratio", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 87, "feature": "Partial Thromboplastin Time", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 88, "feature": "Alkaline Phosphatase", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 89, "feature": "Antibiotic Drug Use", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 90, "feature": "Aortic Surgery", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 91, "feature": "Mean Amplitude Of Glycemic Excursions", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 92, "feature": "Largest Amplitude Of Glycemic Excursions", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 93, "feature": "Mean Absolute Glucose", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 94, "feature": "Glycemic Lability Index", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 95, "feature": "Mean Corpuscular Volume", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 96, "feature": "Body Weight", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 97, "feature": "Mean Corpuscular Hemoglobin", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 98, "feature": "Mean Corpuscular Hemoglobin Concentration", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 99, "feature": "Alanine Aminotransferase", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 100, "feature": "Nicotine Dependence", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 101, "feature": "Gram Positive", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 102, "feature": "Sex", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 103, "feature": "Marital Status", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 104, "feature": "Insurance", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 105, "feature": "Height", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 106, "feature": "Oxford Acute Severity Of Illness Score", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}
+{"rank": 107, "feature": "Ethnicity", "seed": 44, "model": "gpt-4.1-2025-04-14", "model_returned": "gpt-4.1-2025-04-14", "prompt_tokens": 302, "completion_tokens": 249, "thinking_tokens": 0}

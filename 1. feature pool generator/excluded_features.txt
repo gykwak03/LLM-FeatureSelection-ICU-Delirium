@@ -1,0 +1,8 @@
+Original Variable Name	Reason for Exclusion
+Hospital length of stay	[Rule 2] Temporal violation - undetermined at 24 h and lengthened by delirium
+ICU length of stay	[Rule 2] Temporal violation - undetermined at 24 h and lengthened by delirium
+ICU length of stay (days)	[Rule 2] Temporal violation - undetermined at 24 h and lengthened by delirium
+MBG trajectory (latent growth mixture modeling, LGMM)	[Rule 2] Independence violation - LGMM latent classes depend on fitting the whole cohort
+Others	[Out of scope] The 'Others' cell of a source table; an extraction artefact, not a clinical variable
+Total length of stay in ICU (ICU LOS)	[Rule 2] Temporal violation - undetermined at 24 h and lengthened by delirium
+Ventilator service time in ICU (days)	[Rule 2] Temporal violation - ventilation duration is undetermined at 24 h and is lengthened by delirium

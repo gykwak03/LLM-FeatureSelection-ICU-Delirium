@@ -1,0 +1,36 @@
+# =============================================================================
+# Feature selection experiment
+#
+# `results/` holds the raw LLM responses. These are model outputs, not patient
+# data, so they are safe to publish and are the primary evidence behind the
+# reported rankings. Only debug artefacts are excluded.
+# =============================================================================
+
+# ── Credentials ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ── Debug artefacts (empty-response dumps from a transient Gemini issue) -------
+results/_debug/
+
+# ── Superseded run directories -------------------------------------------------
+final_experiment/
+ranked_groups/
+final_rank/
+experiment/
+
+# ── Notebook / Python artefacts ------------------------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# =============================================================================
+# Kept on purpose
+#   results/aggregate/     per-method ranking tables. Required by notebooks 3-4.
+#   results/rank|score|seq raw JSONL responses, ~3 MB total.
+#   results/lmprior/       raw JSONL with full logprob arrays, ~22 MB total.
+#
+# To drop the logprob files (the bulk of the repository), uncomment:
+# results/lmprior/
+# =============================================================================

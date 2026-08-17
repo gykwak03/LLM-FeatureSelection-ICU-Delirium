@@ -1,0 +1,107 @@
+{"rank": 1, "feature": "Glasgow Coma Scale", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 2, "feature": "Dementia", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 3, "feature": "Sequential Organ Failure Assessment Score", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 4, "feature": "Vasopressor Use", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 5, "feature": "Acute Physiology and Chronic Health Evaluation (APACHE) Score", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 6, "feature": "Simplified Acute Physiology Score II", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 7, "feature": "Logistic Organ Dysfunction Score", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 8, "feature": "Sedation Use", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 9, "feature": "Use Of Midazolam", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 10, "feature": "Mechanical Ventilation", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 11, "feature": "Sepsis", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 12, "feature": "Systemic Inflammatory Response Syndrome", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 13, "feature": "Age", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 14, "feature": "Oxford Acute Severity Of Illness Score", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 15, "feature": "Infection", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 16, "feature": "Type Of Initial ICU Admission", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 17, "feature": "Charlson Comorbidity Index", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 18, "feature": "Acute Kidney Injury", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 19, "feature": "Renal Replacement Therapy", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 20, "feature": "Neutrophil To Lymphocyte Ratio", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 21, "feature": "Lactate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 22, "feature": "Blood Urea Nitrogen", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 23, "feature": "Mean Blood Glucose", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 24, "feature": "Blood Sodium", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 25, "feature": "Glomerular Filtration Rate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 26, "feature": "Creatinine", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 27, "feature": "Prognostic Nutritional Index", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 28, "feature": "Geriatric Nutritional Risk Index", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 29, "feature": "Arterial Partial Pressure Of Oxygen", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 30, "feature": "Oxygen Saturation", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 31, "feature": "Respiratory Rate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 32, "feature": "Blood pH", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 33, "feature": "Arterial Partial Pressure Of Carbon Dioxide", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 34, "feature": "Mean Blood Pressure", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 35, "feature": "Temperature", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 36, "feature": "Aspartate Aminotransferase", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 37, "feature": "Bicarbonate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 38, "feature": "Base Excess", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 39, "feature": "Lymphocyte Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 40, "feature": "Heart Rate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 41, "feature": "Systolic Blood Pressure", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 42, "feature": "Potassium", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 43, "feature": "Magnesium", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 44, "feature": "Calcium", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 45, "feature": "Albumin", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 46, "feature": "Bilirubin", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 47, "feature": "Glucose", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 48, "feature": "International Normalized Ratio", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 49, "feature": "Prothrombin Time", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 50, "feature": "White Blood Cell Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 51, "feature": "Neutrophil Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 52, "feature": "Antibiotic Drug Use", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 53, "feature": "Alcohol Abuse", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 54, "feature": "Stroke", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 55, "feature": "Renal Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 56, "feature": "Hypertension", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 57, "feature": "Chronic Obstructive Pulmonary Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 58, "feature": "Diabetes", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 59, "feature": "Depression", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 60, "feature": "Anemia", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 61, "feature": "Mean Amplitude Of Glycemic Excursions", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 62, "feature": "Largest Amplitude Of Glycemic Excursions", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 63, "feature": "Type Of Microorganism", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 64, "feature": "Gram Negative", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 65, "feature": "Chloride", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 66, "feature": "Diastolic Blood Pressure", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 67, "feature": "Glycemic Lability Index", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 68, "feature": "Red Cell Distribution Width", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 69, "feature": "Platelet To Lymphocyte Ratio", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 70, "feature": "Lymphocyte To Monocyte Ratio", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 71, "feature": "Anion Gap", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 72, "feature": "Platelet Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 73, "feature": "Monocyte Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 74, "feature": "Alanine Aminotransferase", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 75, "feature": "Hemoglobin", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 76, "feature": "Partial Thromboplastin Time", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 77, "feature": "Urine Output", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 78, "feature": "Heart Valve Surgery", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 79, "feature": "Elective Surgery", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 80, "feature": "Alkaline Phosphatase", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 81, "feature": "Phosphate", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 82, "feature": "Red Blood Cell Count", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 83, "feature": "Hematocrit", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 84, "feature": "Total Carbon Dioxide", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 85, "feature": "Mean Absolute Glucose", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 86, "feature": "Mean Corpuscular Volume", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 87, "feature": "Mean Corpuscular Hemoglobin Concentration", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 88, "feature": "Heart Failure", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 89, "feature": "Cerebrovascular Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 90, "feature": "Cardiovascular Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 91, "feature": "Liver Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 92, "feature": "Cancer", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 93, "feature": "Peripheral Vascular Disease", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 94, "feature": "Acute Myocardial Infarction", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 95, "feature": "Coronary Artery Bypass Grafting", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 96, "feature": "Aortic Surgery", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 97, "feature": "Gram Positive", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 98, "feature": "Nicotine Dependence", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 99, "feature": "Mean Corpuscular Hemoglobin", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 100, "feature": "Sex", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 101, "feature": "Body Mass Index", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 102, "feature": "Statin Drugs", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 103, "feature": "Body Weight", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 104, "feature": "Marital Status", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 105, "feature": "Ethnicity", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 106, "feature": "Insurance", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}
+{"rank": 107, "feature": "Height", "seed": 43, "model": "gemini-2.5-pro", "model_returned": "gemini-2.5-pro", "prompt_tokens": 307, "completion_tokens": 291, "thinking_tokens": 71}

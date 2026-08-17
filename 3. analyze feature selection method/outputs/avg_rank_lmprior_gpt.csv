@@ -1,0 +1,108 @@
+﻿feature,avg_rank
+Use Of Midazolam,1.6
+Sedation Use,1.6
+Mechanical Ventilation,3.4
+Sequential Organ Failure Assessment Score,5.4
+Alcohol Abuse,6.4
+Dementia,7.0
+Vasopressor Use,7.0
+Systemic Inflammatory Response Syndrome,7.0
+Age,9.6
+Sepsis,10.2
+Depression,12.0
+Acute Physiology and Chronic Health Evaluation (APACHE) Score,12.8
+Acute Kidney Injury,13.2
+Cerebrovascular Disease,13.6
+Stroke,14.6
+Infection,14.8
+Renal Replacement Therapy,17.8
+Glasgow Coma Scale,18.2
+Heart Failure,20.4
+Arterial Partial Pressure Of Carbon Dioxide,21.4
+Blood Sodium,21.6
+Glucose,24.6
+Mean Blood Glucose,26.0
+Simplified Acute Physiology Score II,27.0
+Cardiovascular Disease,27.4
+Blood pH,28.0
+White Blood Cell Count,28.6
+Charlson Comorbidity Index,28.8
+Renal Disease,29.4
+Type Of Initial ICU Admission,29.4
+Antibiotic Drug Use,30.2
+Logistic Organ Dysfunction Score,34.6
+Mean Blood Pressure,35.0
+Oxygen Saturation,36.2
+Liver Disease,36.6
+Albumin,36.6
+Coronary Artery Bypass Grafting,37.6
+Chronic Obstructive Pulmonary Disease,38.6
+Insurance,40.8
+Respiratory Rate,41.0
+Neutrophil Count,41.2
+Magnesium,41.6
+Aspartate Aminotransferase,42.6
+Nicotine Dependence,44.4
+Creatinine,44.6
+Blood Urea Nitrogen,44.8
+Arterial Partial Pressure Of Oxygen,44.8
+Glomerular Filtration Rate,48.2
+Neutrophil To Lymphocyte Ratio,49.0
+Acute Myocardial Infarction,50.2
+Calcium,51.0
+Heart Rate,51.2
+Aortic Surgery,51.6
+Glycemic Lability Index,52.2
+Temperature,54.4
+Systolic Blood Pressure,56.4
+Oxford Acute Severity Of Illness Score,56.8
+Largest Amplitude Of Glycemic Excursions,60.8
+Hypertension,61.0
+Mean Absolute Glucose,61.2
+Mean Amplitude Of Glycemic Excursions,61.6
+Bilirubin,63.4
+Anion Gap,64.8
+Gram Negative,65.0
+Alkaline Phosphatase,66.2
+Urine Output,66.8
+Base Excess,67.4
+Body Mass Index,69.0
+Hemoglobin,69.2
+Anemia,69.2
+Potassium,69.4
+Red Cell Distribution Width,73.0
+Elective Surgery,73.6
+Heart Valve Surgery,75.8
+International Normalized Ratio,77.4
+Type Of Microorganism,78.0
+Gram Positive,78.0
+Statin Drugs,79.8
+Marital Status,79.8
+Bicarbonate,81.6
+Peripheral Vascular Disease,81.6
+Lactate,82.0
+Sex,82.4
+Alanine Aminotransferase,83.4
+Phosphate,84.0
+Platelet Count,85.4
+Cancer,87.2
+Diastolic Blood Pressure,87.4
+Geriatric Nutritional Risk Index,87.6
+Height,88.2
+Red Blood Cell Count,89.2
+Lymphocyte To Monocyte Ratio,91.4
+Ethnicity,91.4
+Diabetes,91.4
+Mean Corpuscular Hemoglobin Concentration,92.2
+Mean Corpuscular Volume,92.8
+Partial Thromboplastin Time,93.2
+Platelet To Lymphocyte Ratio,94.8
+Prothrombin Time,94.8
+Body Weight,97.4
+Total Carbon Dioxide,97.6
+Hematocrit,98.4
+Prognostic Nutritional Index,98.8
+Lymphocyte Count,98.8
+Chloride,101.4
+Mean Corpuscular Hemoglobin,105.2
+Monocyte Count,106.6
