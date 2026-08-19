@@ -75,7 +75,7 @@
 --     Cancer       : mimic-code charlson (Quan et al., Med Care 2005)
 --
 --   ※ 실행 전 콘솔에서 dry run 으로 문법·비용을 먼저 확인할 것.
---   ※ delirium_patients_v2 는 stay_id 가 유니크하므로 별도 dedupe 불필요.
+--   ※ delirium_patients 는 stay_id 가 유니크하므로 별도 dedupe 불필요.
 -- ==============================================================================
 
 -- ==============================================================================
@@ -163,7 +163,7 @@
 -- ------------------------------------------------------------------------------
 -- G. 인구학 / 행정                                                        7개
 -- ------------------------------------------------------------------------------
---   [M] anchor_age, sex(gender), ethnicity(icustay_detail.race), insurance,
+--   [M] age(derived.age, 90세 상한), sex(gender), ethnicity(icustay_detail.race), insurance,
 --       marital_status, type_of_initial_icu_admission(first_careunit)
 --   [S] elective_surgery ............ admission_type IN ('ELECTIVE',
 --                                     'SURGICAL SAME DAY ADMISSION')
@@ -594,21 +594,39 @@ cte_gnri AS (
   LEFT JOIN `physionet-data.mimiciv_3_1_derived.first_day_lab` fdl ON sw.stay_id = fdl.stay_id
 ),
 
+-- [age] 입원 시점 나이
+--   정의 : anchor_age + (입원 연도 - anchor_year), 90 세로 상한 처리
+--   출처 : mimic-code derived.age (MIT-LCP, demographics/age.sql)
+--   비고 : [수정] 기존에는 patients.anchor_age 를 그대로 썼으나, 이는 anchor_year
+--          시점의 나이이지 입원 시점 나이가 아니다. MIMIC-IV 는 환자별로 날짜를
+--          미래로 이동시켜 비식별화하므로, 입원이 anchor_year 보다 뒤라면 그만큼
+--          나이를 더해야 한다. 본 코호트 실측 — 32,574명 중 8,837명(27.1%)에서
+--          두 값이 달랐고 평균 1.07세, 최대 15세 차이가 났다.
+--   ※ HIPAA Safe Harbor 에 따라 89세 초과는 개별 나이를 밝힐 수 없어 MIMIC-IV 는
+--     90세 이상을 anchor_age = 91 로 몰아넣는다. 여기에 경과 연수를 더하면 103세
+--     같은 값이 생기므로(본 코호트 415명) LEAST(...,90) 으로 상한을 둔다.
+--     따라서 90 은 "90세 이상"을 뜻하며, Methods 에 명시할 것.
+cte_age AS (
+  SELECT hadm_id, LEAST(age, 90) AS age
+  FROM `physionet-data.mimiciv_3_1_derived.age`
+),
+
 -- stay_id, egfr
 cte_egfr AS (
   SELECT
     i.stay_id,
     CASE
-      WHEN fdl.creatinine_max IS NULL OR p.anchor_age IS NULL THEN NULL
+      WHEN fdl.creatinine_max IS NULL OR ag.age IS NULL THEN NULL
       ELSE 
         142.0 
         * POWER(LEAST(fdl.creatinine_max / CASE WHEN p.gender = 'F' THEN 0.7 ELSE 0.9 END, 1.0), CASE WHEN p.gender = 'F' THEN -0.241 ELSE -0.302 END) 
         * POWER(GREATEST(fdl.creatinine_max / CASE WHEN p.gender = 'F' THEN 0.7 ELSE 0.9 END, 1.0), -1.200) 
-        * POWER(0.9938, p.anchor_age) 
+        * POWER(0.9938, ag.age) 
         * CASE WHEN p.gender = 'F' THEN 1.012 ELSE 1.0 END
     END AS egfr
   FROM `physionet-data.mimiciv_3_1_icu.icustays` i
   JOIN `physionet-data.mimiciv_3_1_hosp.patients` p ON i.subject_id = p.subject_id
+  LEFT JOIN cte_age ag ON i.hadm_id = ag.hadm_id
   LEFT JOIN `physionet-data.mimiciv_3_1_derived.first_day_lab` fdl ON i.stay_id = fdl.stay_id
 ),
 
@@ -827,13 +845,15 @@ FROM (
     d.subject_id,
     d.hadm_id,
     d.stay_id,
-    -- delirium_patients_v2 (CAM-ICU HAVING 수정본) 컬럼명
+    -- delirium_patients (CAM-ICU HAVING 수정본) 컬럼명
     d.first_delirium_time AS delirium_charttime,
     d.has_delirium_ever   AS delirium,
     adm.deathtime,
     i.intime,
     i.outtime,
-    p.anchor_age,
+    -- [수정] anchor_age -> 입원 시점 나이 (90세 상한). 위 cte_age 주석 참조.
+    --   컬럼명은 하위 노트북의 매핑('Age' -> anchor_age)을 깨지 않도록 유지한다.
+    ag.age AS anchor_age,
     ROW_NUMBER() OVER (PARTITION BY d.subject_id ORDER BY i.intime) AS rn,
     TIMESTAMP_DIFF(i.outtime, i.intime, HOUR) AS icu_hours,
     i.first_careunit AS type_of_initial_icu_admission,
@@ -1038,7 +1058,7 @@ FROM (
     cell_ratios.plr AS platelet_to_lymphocyte_ratio,
     pni_table.pni   AS prognostic_nutritional_index
 
-  FROM `yonsei1.delirium.delirium_patients_v2` d
+  FROM `yonsei1.delirium.delirium_patients` d
 
   -- [2.1] MIMIC IV
   LEFT JOIN `physionet-data.mimiciv_3_1_hosp.patients` p      ON d.subject_id = p.subject_id
@@ -1081,7 +1101,11 @@ FROM (
   LEFT JOIN cte_cell_ratios cell_ratios   ON d.stay_id = cell_ratios.stay_id
   LEFT JOIN cte_pni pni_table             ON d.stay_id = pni_table.stay_id
   -- ===== [ADDED] =====
+  -- charlson 은 내부적으로 derived.age 를 써서 age_score 를 계산하므로
+  --   위 cte_age 와 동일한 소스를 참조한다. 상한 90 은 age_score 구간
+  --   (>80 이면 4점)을 바꾸지 않으므로 CCI 값에는 영향이 없다.
   LEFT JOIN `physionet-data.mimiciv_3_1_derived.charlson` ch        ON d.hadm_id = ch.hadm_id
+  LEFT JOIN cte_age ag                                             ON d.hadm_id = ag.hadm_id
   LEFT JOIN `physionet-data.mimiciv_3_1_derived.icustay_detail` idt ON d.stay_id = idt.stay_id
   LEFT JOIN cte_rbc_indices rbci          ON d.stay_id = rbci.stay_id
   LEFT JOIN cte_mg_phos     mgp           ON d.stay_id = mgp.stay_id
@@ -1115,7 +1139,7 @@ WITH ev AS (
     m.org_name,
     i.intime,
     m.charttime
-  FROM `yonsei1.delirium.delirium_patients_v2` d
+  FROM `yonsei1.delirium.delirium_patients` d
   JOIN `physionet-data.mimiciv_3_1_icu.icustays` i ON d.stay_id = i.stay_id
   LEFT JOIN `physionet-data.mimiciv_3_1_hosp.microbiologyevents` m
     ON i.hadm_id = m.hadm_id
@@ -1148,7 +1172,7 @@ SELECT
   COUNT(*) AS n_tests,
   COUNTIF(m.org_name IS NOT NULL) AS n_with_organism,
   ROUND(100 * COUNT(*) / SUM(COUNT(*)) OVER (), 1) AS pct_of_all
-FROM `yonsei1.delirium.delirium_patients_v2` d
+FROM `yonsei1.delirium.delirium_patients` d
 JOIN `physionet-data.mimiciv_3_1_icu.icustays` i ON d.stay_id = i.stay_id
 JOIN `physionet-data.mimiciv_3_1_hosp.microbiologyevents` m
   ON i.hadm_id = m.hadm_id
@@ -1242,7 +1266,7 @@ WITH unrestricted AS (
     MAX(CASE WHEN REGEXP_CONTAINS(UPPER(pr.drug),
           r'STATIN|ATORVA|SIMVA|ROSUVA|PRAVA|LOVA|FLUVA|PITAVA|CERIVA')
          THEN 1 ELSE 0 END) AS statin_old
-  FROM `yonsei1.delirium.delirium_patients_v2` d
+  FROM `yonsei1.delirium.delirium_patients` d
   LEFT JOIN `physionet-data.mimiciv_3_1_derived.sepsis3` sp ON d.stay_id = sp.stay_id
   LEFT JOIN `physionet-data.mimiciv_3_1_hosp.prescriptions` pr ON d.hadm_id = pr.hadm_id
   GROUP BY d.stay_id
@@ -1255,3 +1279,4 @@ SELECT
   ROUND(100*AVG(CASE WHEN t.cardiac_surgery_type != 'None' THEN 1 ELSE 0 END), 2)
                                    AS cardiac_surgery_pct_after
 FROM `yonsei1.delirium.mimic_i
+*/

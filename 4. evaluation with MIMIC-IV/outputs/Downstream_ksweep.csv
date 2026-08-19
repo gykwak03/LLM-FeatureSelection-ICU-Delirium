@@ -1,145 +1,145 @@
 ﻿selection,family,k,n_cols,auc,std,ap
-lmprior_gpt,llm,5,5,0.6609,0.0083,0.1456
-rank_claude,llm,5,5,0.7261,0.0034,0.1935
-rank_gemini,llm,5,5,0.7156,0.004,0.1967
-rank_gpt,llm,5,5,0.7055,0.0035,0.1805
-score_claude,llm,5,5,0.7116,0.0121,0.1981
-score_gemini,llm,5,5,0.6687,0.0134,0.1715
-score_gpt,llm,5,5,0.6757,0.019,0.1715
-seq_claude,llm,5,5,0.7269,0.0078,0.1767
-seq_gemini,llm,5,5,0.7102,0.0128,0.1737
-seq_gpt,llm,5,5,0.71,0.0131,0.1739
-BASELINE_random (mean of 5),baseline,5,7,0.6182,0.0131,0.1291
-BASELINE_bottom (lmprior_gpt),baseline,5,9,0.5962,0.0083,0.1183
-lmprior_gpt,llm,10,10,0.6868,0.0094,0.1742
-rank_claude,llm,10,10,0.7527,0.0022,0.2248
-rank_gemini,llm,10,10,0.7443,0.0041,0.2176
-rank_gpt,llm,10,10,0.7303,0.0071,0.1966
-score_claude,llm,10,10,0.7342,0.0057,0.201
-score_gemini,llm,10,10,0.7218,0.0116,0.202
-score_gpt,llm,10,10,0.7388,0.0062,0.2078
-seq_claude,llm,10,11,0.7347,0.0055,0.1859
-seq_gemini,llm,10,12,0.7329,0.0071,0.1811
-seq_gpt,llm,10,10,0.7222,0.0141,0.203
-BASELINE_random (mean of 5),baseline,10,13,0.6857,0.0258,0.1713
-BASELINE_bottom (lmprior_gpt),baseline,10,17,0.6534,0.005,0.1552
-lmprior_gpt,llm,20,21,0.7556,0.0076,0.2262
-rank_claude,llm,20,22,0.7658,0.0041,0.2332
-rank_gemini,llm,20,20,0.7848,0.0061,0.2644
-rank_gpt,llm,20,20,0.768,0.004,0.2432
-score_claude,llm,20,21,0.7701,0.0034,0.2431
-score_gemini,llm,20,20,0.7699,0.0086,0.246
-score_gpt,llm,20,21,0.7691,0.0055,0.2433
-seq_claude,llm,20,28,0.7536,0.0038,0.2204
-seq_gemini,llm,20,29,0.7589,0.0056,0.2208
-seq_gpt,llm,20,23,0.745,0.0035,0.2114
-BASELINE_random (mean of 5),baseline,20,27,0.7417,0.0175,0.2174
-BASELINE_bottom (lmprior_gpt),baseline,20,32,0.704,0.0072,0.1854
-lmprior_gpt,llm,30,35,0.7735,0.0005,0.2524
-rank_claude,llm,30,36,0.7911,0.0063,0.2747
-rank_gemini,llm,30,36,0.7929,0.0077,0.2763
-rank_gpt,llm,30,32,0.7982,0.0038,0.285
-score_claude,llm,30,33,0.7728,0.0032,0.2458
-score_gemini,llm,30,33,0.79,0.0053,0.2715
-score_gpt,llm,30,33,0.7756,0.006,0.2477
-seq_claude,llm,30,45,0.7917,0.0025,0.2622
-seq_gemini,llm,30,43,0.7908,0.0034,0.2643
-seq_gpt,llm,30,39,0.7616,0.0052,0.2382
-BASELINE_random (mean of 5),baseline,30,39,0.766,0.0295,0.2467
-BASELINE_bottom (lmprior_gpt),baseline,30,47,0.7153,0.0096,0.1921
-lmprior_gpt,llm,40,49,0.7983,0.0038,0.2782
-rank_claude,llm,40,52,0.8007,0.004,0.28
-rank_gemini,llm,40,52,0.8011,0.0063,0.2822
-rank_gpt,llm,40,47,0.8087,0.0045,0.307
-score_claude,llm,40,50,0.7874,0.0037,0.263
-score_gemini,llm,40,46,0.793,0.0049,0.27
-score_gpt,llm,40,46,0.7852,0.0048,0.2501
-seq_claude,llm,40,62,0.8044,0.0035,0.2892
-seq_gemini,llm,40,60,0.797,0.0055,0.2722
-seq_gpt,llm,40,54,0.7983,0.005,0.2764
-BASELINE_random (mean of 5),baseline,40,57,0.7767,0.0158,0.2562
-BASELINE_bottom (lmprior_gpt),baseline,40,61,0.7422,0.0065,0.2105
-lmprior_gpt,llm,50,65,0.8055,0.0066,0.2941
-rank_claude,llm,50,68,0.819,0.0039,0.3142
-rank_gemini,llm,50,69,0.8054,0.0054,0.2932
-rank_gpt,llm,50,62,0.8191,0.0068,0.3191
-score_claude,llm,50,62,0.8025,0.0059,0.2899
-score_gemini,llm,50,62,0.816,0.007,0.3092
-score_gpt,llm,50,61,0.7997,0.0048,0.2807
-seq_claude,llm,50,75,0.809,0.0054,0.2953
-seq_gemini,llm,50,74,0.8099,0.0043,0.2985
-seq_gpt,llm,50,70,0.8042,0.0038,0.2842
-BASELINE_random (mean of 5),baseline,50,70,0.7903,0.0086,0.2707
-BASELINE_bottom (lmprior_gpt),baseline,50,75,0.756,0.0055,0.226
-lmprior_gpt,llm,60,79,0.8161,0.0062,0.3056
-rank_claude,llm,60,82,0.8189,0.0068,0.3147
-rank_gemini,llm,60,83,0.8189,0.0065,0.3137
-rank_gpt,llm,60,78,0.8211,0.0059,0.3239
-score_claude,llm,60,78,0.8093,0.0054,0.3022
-score_gemini,llm,60,75,0.8178,0.0057,0.3148
-score_gpt,llm,60,78,0.8152,0.0044,0.3074
-seq_claude,llm,60,89,0.8125,0.005,0.3026
-seq_gemini,llm,60,90,0.8249,0.006,0.3231
-seq_gpt,llm,60,85,0.8077,0.0036,0.2923
-BASELINE_random (mean of 5),baseline,60,85,0.8096,0.0124,0.2983
-BASELINE_bottom (lmprior_gpt),baseline,60,89,0.7898,0.0053,0.2607
-lmprior_gpt,llm,70,94,0.8245,0.0047,0.3264
-rank_claude,llm,70,99,0.8379,0.0046,0.3476
-rank_gemini,llm,70,98,0.8381,0.0059,0.3513
-rank_gpt,llm,70,94,0.8234,0.0067,0.3216
-score_claude,llm,70,94,0.8227,0.0053,0.3253
-score_gemini,llm,70,89,0.8238,0.0063,0.3291
-score_gpt,llm,70,94,0.8301,0.0065,0.3375
-seq_claude,llm,70,103,0.8147,0.0044,0.3007
-seq_gemini,llm,70,103,0.8267,0.0067,0.3298
-seq_gpt,llm,70,100,0.8402,0.0055,0.3477
-BASELINE_random (mean of 5),baseline,70,99,0.8173,0.0088,0.3143
-BASELINE_bottom (lmprior_gpt),baseline,70,106,0.7958,0.0061,0.2687
-lmprior_gpt,llm,80,108,0.827,0.0057,0.3323
-rank_claude,llm,80,115,0.838,0.0059,0.3479
-rank_gemini,llm,80,113,0.8403,0.0065,0.3501
-rank_gpt,llm,80,110,0.8309,0.006,0.3399
-score_claude,llm,80,112,0.8248,0.0058,0.3256
-score_gemini,llm,80,108,0.84,0.0058,0.3488
-score_gpt,llm,80,108,0.8324,0.0066,0.3383
-seq_claude,llm,80,118,0.8411,0.0056,0.3507
-seq_gemini,llm,80,115,0.8291,0.008,0.3363
-seq_gpt,llm,80,114,0.8406,0.005,0.3528
-BASELINE_random (mean of 5),baseline,80,113,0.8243,0.0065,0.3206
-BASELINE_bottom (lmprior_gpt),baseline,80,119,0.8296,0.0092,0.3346
-lmprior_gpt,llm,90,123,0.8298,0.0072,0.3316
-rank_claude,llm,90,130,0.8396,0.0059,0.3506
-rank_gemini,llm,90,128,0.8411,0.0049,0.3505
-rank_gpt,llm,90,126,0.8315,0.0071,0.3362
-score_claude,llm,90,128,0.8277,0.0065,0.3272
-score_gemini,llm,90,126,0.8409,0.0065,0.3493
-score_gpt,llm,90,125,0.8415,0.0062,0.3522
-seq_claude,llm,90,131,0.8418,0.0071,0.3518
-seq_gemini,llm,90,129,0.8393,0.0062,0.3466
-seq_gpt,llm,90,126,0.8423,0.0071,0.3543
-BASELINE_random (mean of 5),baseline,90,125,0.8332,0.0066,0.3374
-BASELINE_bottom (lmprior_gpt),baseline,90,134,0.8364,0.0095,0.3409
-lmprior_gpt,llm,100,138,0.8404,0.0078,0.3565
-rank_claude,llm,100,143,0.8405,0.0066,0.3507
-rank_gemini,llm,100,143,0.8424,0.0065,0.3554
-rank_gpt,llm,100,142,0.8411,0.0068,0.3525
-score_claude,llm,100,142,0.8409,0.0059,0.351
-score_gemini,llm,100,142,0.8412,0.0069,0.35
-score_gpt,llm,100,140,0.8423,0.0067,0.3524
-seq_claude,llm,100,143,0.843,0.0065,0.3577
-seq_gemini,llm,100,141,0.8432,0.0069,0.3543
-seq_gpt,llm,100,142,0.8418,0.0072,0.3573
-BASELINE_random (mean of 5),baseline,100,141,0.8387,0.0019,0.3467
-BASELINE_bottom (lmprior_gpt),baseline,100,144,0.8381,0.0087,0.3457
-lmprior_gpt,llm,107,151,0.8428,0.0073,0.3589
-rank_claude,llm,107,151,0.8421,0.0067,0.3526
-rank_gemini,llm,107,151,0.843,0.0066,0.3564
-rank_gpt,llm,107,151,0.8427,0.0065,0.3568
-score_claude,llm,107,151,0.8429,0.0071,0.3525
-score_gemini,llm,107,151,0.842,0.0065,0.3518
-score_gpt,llm,107,151,0.8425,0.0069,0.3574
-seq_claude,llm,107,151,0.8413,0.0085,0.3556
-seq_gemini,llm,107,151,0.8418,0.0068,0.3498
-seq_gpt,llm,107,151,0.8428,0.0065,0.3563
-BASELINE_random (mean of 5),baseline,107,151,0.8426,0.0006,0.3556
-BASELINE_bottom (lmprior_gpt),baseline,107,151,0.8428,0.0073,0.3589
+lmprior_gpt,llm,5,5,0.6598,0.0082,0.1502
+rank_claude,llm,5,5,0.727,0.0057,0.193
+rank_gemini,llm,5,5,0.7153,0.006,0.1963
+rank_gpt,llm,5,5,0.704,0.0056,0.1798
+score_claude,llm,5,5,0.7121,0.0093,0.1991
+score_gemini,llm,5,5,0.6677,0.0126,0.1701
+score_gpt,llm,5,5,0.677,0.0174,0.1732
+seq_claude,llm,5,5,0.726,0.0088,0.1762
+seq_gemini,llm,5,5,0.7097,0.0086,0.1735
+seq_gpt,llm,5,5,0.7082,0.0079,0.1722
+BASELINE_random (mean of 5),baseline,5,7,0.6166,0.0134,0.1289
+BASELINE_bottom (lmprior_gpt),baseline,5,9,0.5974,0.0049,0.1187
+lmprior_gpt,llm,10,10,0.6885,0.0055,0.1781
+rank_claude,llm,10,10,0.7505,0.0083,0.2221
+rank_gemini,llm,10,10,0.7449,0.0105,0.2188
+rank_gpt,llm,10,10,0.7308,0.0048,0.199
+score_claude,llm,10,10,0.7322,0.0049,0.199
+score_gemini,llm,10,10,0.7189,0.0072,0.2024
+score_gpt,llm,10,10,0.7393,0.0075,0.2078
+seq_claude,llm,10,11,0.7327,0.008,0.1857
+seq_gemini,llm,10,12,0.7328,0.0066,0.1837
+seq_gpt,llm,10,10,0.7214,0.0087,0.2026
+BASELINE_random (mean of 5),baseline,10,13,0.6862,0.0247,0.1705
+BASELINE_bottom (lmprior_gpt),baseline,10,17,0.6528,0.0025,0.1531
+lmprior_gpt,llm,20,21,0.7557,0.0052,0.226
+rank_claude,llm,20,22,0.7609,0.0109,0.2286
+rank_gemini,llm,20,20,0.7847,0.0046,0.2661
+rank_gpt,llm,20,20,0.7667,0.0085,0.24
+score_claude,llm,20,21,0.7667,0.0061,0.2383
+score_gemini,llm,20,20,0.7681,0.0072,0.2419
+score_gpt,llm,20,21,0.7684,0.0059,0.2423
+seq_claude,llm,20,28,0.7507,0.0072,0.2189
+seq_gemini,llm,20,29,0.7586,0.0079,0.2242
+seq_gpt,llm,20,23,0.7443,0.0049,0.2124
+BASELINE_random (mean of 5),baseline,20,27,0.7419,0.0172,0.218
+BASELINE_bottom (lmprior_gpt),baseline,20,32,0.7024,0.0046,0.1811
+lmprior_gpt,llm,30,35,0.7725,0.0033,0.2515
+rank_claude,llm,30,36,0.7885,0.0053,0.2684
+rank_gemini,llm,30,36,0.7919,0.0058,0.2742
+rank_gpt,llm,30,32,0.7961,0.0112,0.2813
+score_claude,llm,30,33,0.7727,0.0084,0.246
+score_gemini,llm,30,33,0.7889,0.0047,0.2758
+score_gpt,llm,30,33,0.7761,0.004,0.2525
+seq_claude,llm,30,45,0.7901,0.0101,0.2586
+seq_gemini,llm,30,43,0.7884,0.0092,0.2614
+seq_gpt,llm,30,39,0.7603,0.0033,0.2346
+BASELINE_random (mean of 5),baseline,30,39,0.7665,0.0291,0.2485
+BASELINE_bottom (lmprior_gpt),baseline,30,47,0.717,0.0021,0.1886
+lmprior_gpt,llm,40,49,0.7971,0.004,0.279
+rank_claude,llm,40,52,0.7993,0.0046,0.2769
+rank_gemini,llm,40,52,0.7973,0.0044,0.275
+rank_gpt,llm,40,47,0.8097,0.0071,0.3114
+score_claude,llm,40,50,0.7857,0.0053,0.2578
+score_gemini,llm,40,46,0.792,0.0041,0.2712
+score_gpt,llm,40,46,0.7822,0.0046,0.2506
+seq_claude,llm,40,62,0.8047,0.0086,0.2893
+seq_gemini,llm,40,60,0.796,0.0086,0.2705
+seq_gpt,llm,40,54,0.7982,0.0058,0.2803
+BASELINE_random (mean of 5),baseline,40,57,0.777,0.0151,0.2553
+BASELINE_bottom (lmprior_gpt),baseline,40,61,0.7404,0.0035,0.2068
+lmprior_gpt,llm,50,65,0.8036,0.0043,0.2878
+rank_claude,llm,50,68,0.8129,0.0057,0.2961
+rank_gemini,llm,50,69,0.8033,0.0064,0.2848
+rank_gpt,llm,50,62,0.815,0.0036,0.3154
+score_claude,llm,50,62,0.8018,0.0047,0.2858
+score_gemini,llm,50,62,0.8137,0.0062,0.3038
+score_gpt,llm,50,61,0.7966,0.0046,0.2782
+seq_claude,llm,50,75,0.8068,0.0066,0.2948
+seq_gemini,llm,50,74,0.8103,0.0064,0.2926
+seq_gpt,llm,50,70,0.8017,0.0064,0.2811
+BASELINE_random (mean of 5),baseline,50,70,0.7896,0.0087,0.2689
+BASELINE_bottom (lmprior_gpt),baseline,50,75,0.755,0.0042,0.221
+lmprior_gpt,llm,60,79,0.8158,0.0053,0.3042
+rank_claude,llm,60,82,0.8145,0.005,0.2996
+rank_gemini,llm,60,83,0.8162,0.0065,0.3002
+rank_gpt,llm,60,78,0.8183,0.0036,0.315
+score_claude,llm,60,78,0.8083,0.0049,0.2988
+score_gemini,llm,60,75,0.8156,0.0036,0.3097
+score_gpt,llm,60,78,0.8113,0.0053,0.3024
+seq_claude,llm,60,89,0.8107,0.0058,0.2952
+seq_gemini,llm,60,90,0.822,0.0063,0.3169
+seq_gpt,llm,60,85,0.8064,0.0075,0.2847
+BASELINE_random (mean of 5),baseline,60,85,0.8069,0.0109,0.2944
+BASELINE_bottom (lmprior_gpt),baseline,60,89,0.787,0.007,0.2529
+lmprior_gpt,llm,70,94,0.8225,0.0032,0.3266
+rank_claude,llm,70,99,0.8343,0.0069,0.3388
+rank_gemini,llm,70,98,0.8354,0.0053,0.3461
+rank_gpt,llm,70,94,0.8178,0.0049,0.312
+score_claude,llm,70,94,0.8191,0.0031,0.3192
+score_gemini,llm,70,89,0.8227,0.004,0.323
+score_gpt,llm,70,94,0.8278,0.0053,0.3338
+seq_claude,llm,70,103,0.8142,0.0041,0.3034
+seq_gemini,llm,70,103,0.8252,0.0055,0.3249
+seq_gpt,llm,70,100,0.8359,0.0072,0.3396
+BASELINE_random (mean of 5),baseline,70,99,0.8155,0.0085,0.3077
+BASELINE_bottom (lmprior_gpt),baseline,70,106,0.7939,0.0074,0.2653
+lmprior_gpt,llm,80,108,0.8233,0.0047,0.3226
+rank_claude,llm,80,115,0.8355,0.0071,0.3365
+rank_gemini,llm,80,113,0.837,0.0034,0.3435
+rank_gpt,llm,80,110,0.8247,0.0028,0.3282
+score_claude,llm,80,112,0.8199,0.0037,0.3204
+score_gemini,llm,80,108,0.8356,0.0037,0.3475
+score_gpt,llm,80,108,0.8281,0.0046,0.3351
+seq_claude,llm,80,118,0.8391,0.0054,0.3429
+seq_gemini,llm,80,115,0.8261,0.0032,0.326
+seq_gpt,llm,80,114,0.8369,0.0056,0.3438
+BASELINE_random (mean of 5),baseline,80,113,0.8235,0.0061,0.3171
+BASELINE_bottom (lmprior_gpt),baseline,80,119,0.8276,0.0041,0.3302
+lmprior_gpt,llm,90,123,0.8256,0.0048,0.3251
+rank_claude,llm,90,130,0.8354,0.0042,0.3377
+rank_gemini,llm,90,128,0.8378,0.0047,0.3412
+rank_gpt,llm,90,126,0.8305,0.0062,0.3288
+score_claude,llm,90,128,0.8234,0.0044,0.3203
+score_gemini,llm,90,126,0.8366,0.0039,0.3414
+score_gpt,llm,90,125,0.8368,0.0039,0.3457
+seq_claude,llm,90,131,0.8402,0.0054,0.3482
+seq_gemini,llm,90,129,0.838,0.0064,0.3415
+seq_gpt,llm,90,126,0.8404,0.0036,0.3491
+BASELINE_random (mean of 5),baseline,90,125,0.8323,0.0072,0.336
+BASELINE_bottom (lmprior_gpt),baseline,90,134,0.8328,0.0062,0.3353
+lmprior_gpt,llm,100,138,0.8394,0.0045,0.352
+rank_claude,llm,100,143,0.8391,0.0056,0.3455
+rank_gemini,llm,100,143,0.8374,0.0055,0.3472
+rank_gpt,llm,100,142,0.8397,0.0048,0.3472
+score_claude,llm,100,142,0.8383,0.0038,0.3419
+score_gemini,llm,100,142,0.8389,0.0043,0.3424
+score_gpt,llm,100,140,0.841,0.0046,0.3512
+seq_claude,llm,100,143,0.8407,0.0052,0.3476
+seq_gemini,llm,100,141,0.8396,0.0067,0.3421
+seq_gpt,llm,100,142,0.8412,0.0055,0.3501
+BASELINE_random (mean of 5),baseline,100,141,0.8368,0.0018,0.3428
+BASELINE_bottom (lmprior_gpt),baseline,100,144,0.8368,0.0042,0.3393
+lmprior_gpt,llm,107,151,0.841,0.0049,0.3474
+rank_claude,llm,107,151,0.8402,0.0078,0.3474
+rank_gemini,llm,107,151,0.8402,0.004,0.3466
+rank_gpt,llm,107,151,0.8404,0.0061,0.3489
+score_claude,llm,107,151,0.8403,0.0061,0.3475
+score_gemini,llm,107,151,0.8413,0.0058,0.3516
+score_gpt,llm,107,151,0.8402,0.0053,0.3506
+seq_claude,llm,107,151,0.8407,0.0056,0.3513
+seq_gemini,llm,107,151,0.8392,0.0056,0.3437
+seq_gpt,llm,107,151,0.8405,0.0059,0.3476
+BASELINE_random (mean of 5),baseline,107,151,0.8409,0.0003,0.3492
+BASELINE_bottom (lmprior_gpt),baseline,107,151,0.841,0.0049,0.3474

@@ -10,8 +10,10 @@
 
 # ── Patient-level data — MIMIC-IV DUA -----------------------------------------
 mimic_iv_dataset*
-bq-results-*.csv
-delirium_patients*.csv
+bq-results-*
+# BigQuery/browser exports can be saved without a file extension.
+# Match this patient-level extract name in any directory, with or without one.
+delirium_patients*
 *.parquet
 *.feather
 *.pkl
@@ -22,6 +24,9 @@ delirium_patients*.csv
 *cohort*.csv
 *patients*.csv
 *_raw.csv
+
+# Local Codex/document-rendering scratch files
+.codex_tmp/
 
 # ── Credentials ---------------------------------------------------------------
 .env
