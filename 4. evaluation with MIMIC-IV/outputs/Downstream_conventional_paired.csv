@@ -1,0 +1,19 @@
+﻿k,Metric,Conventional,Best LLM-based,Difference,95% CI,p,Significant
+10,AUPRC,Gradient-boosted tree gain,Ranking / Claude Sonnet 4.5,0.0339,"[+0.0215, +0.0463]",0.0,Yes
+10,AUPRC,L1-regularised logistic regression,Ranking / Claude Sonnet 4.5,0.0253,"[+0.0121, +0.0388]",0.0,Yes
+10,AUPRC,Mutual information,Ranking / Claude Sonnet 4.5,-0.0071,"[-0.0189, +0.0046]",0.223,No
+10,AUROC,Gradient-boosted tree gain,Ranking / Claude Sonnet 4.5,0.0299,"[+0.0228, +0.0368]",0.0,Yes
+10,AUROC,L1-regularised logistic regression,Ranking / Claude Sonnet 4.5,0.0245,"[+0.0162, +0.0331]",0.0,Yes
+10,AUROC,Mutual information,Ranking / Claude Sonnet 4.5,-0.0047,"[-0.0123, +0.0027]",0.225,No
+30,AUPRC,Gradient-boosted tree gain,Ranking / GPT-4.1,0.0456,"[+0.0327, +0.0584]",0.0,Yes
+30,AUPRC,L1-regularised logistic regression,Ranking / GPT-4.1,0.0448,"[+0.0303, +0.0599]",0.0,Yes
+30,AUPRC,Mutual information,Ranking / GPT-4.1,-0.0261,"[-0.0406, -0.0131]",0.0,Yes
+30,AUROC,Gradient-boosted tree gain,Ranking / GPT-4.1,0.0323,"[+0.0266, +0.0379]",0.0,Yes
+30,AUROC,L1-regularised logistic regression,Ranking / GPT-4.1,0.024,"[+0.0176, +0.0305]",0.0,Yes
+30,AUROC,Mutual information,Ranking / GPT-4.1,-0.0137,"[-0.0209, -0.0068]",0.0,Yes
+50,AUPRC,L1-regularised logistic regression,Ranking / GPT-4.1,0.0199,"[+0.0059, +0.0338]",0.004,Yes
+50,AUPRC,Gradient-boosted tree gain,Ranking / GPT-4.1,0.0186,"[+0.0052, +0.0318]",0.007,Yes
+50,AUPRC,Mutual information,Ranking / GPT-4.1,-0.031,"[-0.0448, -0.0167]",0.0,Yes
+50,AUROC,Gradient-boosted tree gain,Ranking / GPT-4.1,0.0195,"[+0.0149, +0.0242]",0.0,Yes
+50,AUROC,L1-regularised logistic regression,Ranking / GPT-4.1,0.0112,"[+0.0058, +0.0167]",0.0,Yes
+50,AUROC,Mutual information,Ranking / GPT-4.1,-0.0106,"[-0.0164, -0.0047]",0.0,Yes
