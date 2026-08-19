@@ -1,0 +1,14 @@
+﻿selection,family,k,auroc,ci,cols_stable_across_folds
+BASELINE_xgb_gain,statistical,30,0.8282,"[0.8208, 0.8359]",20.0
+BASELINE_lasso,statistical,30,0.8199,"[0.8123, 0.8277]",21.0
+rank_gpt,llm,30,0.7958,"[0.7876, 0.8041]",
+rank_gemini,llm,30,0.7918,"[0.7837, 0.8000]",
+seq_claude,llm,30,0.79,"[0.7820, 0.7986]",
+score_gemini,llm,30,0.7889,"[0.7807, 0.7972]",
+rank_claude,llm,30,0.7884,"[0.7805, 0.7967]",
+seq_gemini,llm,30,0.7883,"[0.7799, 0.7966]",
+BASELINE_mutual_info,statistical,30,0.7822,"[0.7737, 0.7908]",11.0
+score_gpt,llm,30,0.7759,"[0.7674, 0.7849]",
+score_claude,llm,30,0.7725,"[0.7640, 0.7814]",
+lmprior_gpt,llm,30,0.7724,"[0.7640, 0.7814]",
+seq_gpt,llm,30,0.7603,"[0.7518, 0.7692]",
