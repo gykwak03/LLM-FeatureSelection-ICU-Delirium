@@ -1,6 +1,0 @@
-﻿model,missing_policy,n_cols,auc,auc_std,ap
-xgboost (대치 강제),중앙값 대치,151,0.841,0.0063,0.3508
-xgboost,NaN 유지,151,0.8407,0.0056,0.3496
-lightgbm,NaN 유지,151,0.8378,0.0063,0.3466
-random_forest,대치+지시변수,151,0.8139,0.0066,0.287
-logistic_regression,대치+지시변수,151,0.8102,0.0071,0.3025

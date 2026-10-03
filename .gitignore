@@ -1,34 +1,48 @@
-# =============================================================================
-# LLM-FeatureSelection-ICU-Delirium
+# Code-only public repository policy
 #
-# Two categories below must never be committed:
-#   (1) patient-level data  - the MIMIC-IV data use agreement prohibits
-#       redistribution. Only credentialed PhysioNet users may obtain it.
-#   (2) API credentials
-# Everything else (code, prompts, LLM outputs, aggregate tables) is shareable.
-# =============================================================================
+# MIMIC-IV and every derived dataset or analysis output stay local. The broad
+# rules below are intentional: this repository publishes source code only.
 
-# ── Patient-level data — MIMIC-IV DUA -----------------------------------------
-mimic_iv_dataset*
-bq-results-*
-# BigQuery/browser exports can be saved without a file extension.
-# Match this patient-level extract name in any directory, with or without one.
-delirium_patients*
+# Restricted or derived data and generated outputs
+data/
+results/
+outputs/
+figures/
+rendered_sql/
+**/data/
+**/results/
+**/outputs/
+**/figures/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
 *.parquet
 *.feather
+*.npz
+*.npy
 *.pkl
 *.pickle
 *.sav
 *.dta
-# any file whose name marks it as a patient-level extract
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+MANIFEST.sha256
+
+# Patient-level extract names, including extensionless BigQuery exports
+mimic_iv_dataset*
+delirium_patients*
+bq-results-*
 *cohort*.csv
 *patients*.csv
 *_raw.csv
 
-# Local Codex/document-rendering scratch files
-.codex_tmp/
-
-# ── Credentials ---------------------------------------------------------------
+# Credentials and local configuration
 .env
 .env.*
 !.env.example
@@ -38,19 +52,31 @@ credentials*.json
 service_account*.json
 client_secret*.json
 
-# ── Copyrighted third-party material ------------------------------------------
+# Local-only research materials and prior working copies
+_local_archive/
 cited_papers/
-*.pdf
+docx_media_*/
+_audit_*/
+_consistency_*/
+_docx_*/
+_render_*/
+_revision_*/
+_supp_*/
+_validation_*/
+_codex_*
+CLAUDE.md
+journal_submission_code_*/
 
-# ── Manuscript drafts (kept out of the code repository) -----------------------
+# Manuscript and office files
 *.docx
 *.doc
 *.pptx
+*.ppt
 ~$*
 *.tmp
 *~WRL*
 
-# ── Python ---------------------------------------------------------------------
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -59,32 +85,33 @@ __pycache__/
 build/
 dist/
 .venv/
+.venv-*/
 venv/
 env/
 ENV/
 .python-version
 
-# ── Jupyter --------------------------------------------------------------------
+# Jupyter
 .ipynb_checkpoints/
 *-checkpoint.ipynb
 profile_default/
 ipython_config.py
 
-# ── Tooling / caches -----------------------------------------------------------
+# Tooling and caches
+.codex_tmp/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
 .ipynb_cache/
 .cache/
+_mpl_cache/
 *.log
 
-# ── Editors ---------------------------------------------------------------------
+# Editors and operating systems
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# ── OS ---------------------------------------------------------------------------
 .DS_Store
 .DS_Store?
 ._*
@@ -94,19 +121,3 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 *.lnk
-
-# =============================================================================
-# Intentionally tracked — listed here so the exclusions above are not widened
-# by mistake. None of these contain patient-level rows.
-#
-#   1. feature pool generator/*.txt          feature pool, mappings, exclusions
-#   1. feature pool generator/*.xlsx         labels extracted from source papers
-#   2. feature selection experiment/results/ raw LLM responses (JSONL) + aggregates
-#   3. analyze feature selection method/outputs/   analysis tables and figures
-#   4. evaluation with MIMIC-IV/*.sql        extraction and verification queries
-#   4. evaluation with MIMIC-IV/outputs/     aggregate results (no patient rows)
-#
-# Note: results/lmprior/gpt/*.jsonl store full logprob arrays and total ~22 MB.
-# They are kept for reproducibility. To exclude them instead, uncomment:
-# 2. feature selection experiment/results/lmprior/
-# =============================================================================

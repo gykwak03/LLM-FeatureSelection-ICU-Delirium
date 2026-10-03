@@ -1,5 +1,0 @@
-﻿Component,Per-feature mean (%),Per-feature 95% CI,Pooled (%),Pooled 95% CI,Mixed-effects (%)
-Method (rank/score/seq),37.1,"[33.0, 41.3]",46.0,"[39.2, 52.2]",46.3
-Model (LLM),14.6,"[12.2, 17.1]",13.3,"[10.5, 16.4]",7.3
-Model x Method,17.1,"[15.1, 19.2]",14.3,"[12.1, 16.6]",20.2
-Within-condition (run-to-run),31.2,"[28.3, 34.3]",26.4,"[23.3, 30.1]",26.2
